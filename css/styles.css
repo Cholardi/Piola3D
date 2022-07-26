@@ -107,9 +107,9 @@ span{
 }
 
 .button:hover{
-    background-color: chocolate;
-    border-color:  rgb(34, 31, 30);
-    color: white;
+    box-shadow: 0px 1px 16px 1px rgba(210,105,30,0.1);
+    -webkit-box-shadow: 0px 1px 16px 1px rgba(210,105,30,0.1);
+    -moz-box-shadow: 0px 1px 16px 1px rgba(210,105,30,0.1);
 }
 
 /* imagenes full width */
@@ -138,6 +138,8 @@ span{
 
     position: sticky;
     top: 0;
+
+    z-index: 10;
 }
 
 /* logo */
