@@ -23,8 +23,7 @@ a{
 
 a:hover{
     color: chocolate;
-    text-decoration: underline;
-    transform: scale(1.5);
+    transform: scale(1.05);
 }
 
 
@@ -105,6 +104,12 @@ span{
     padding: 15px;
     border: solid 3px rgba(216, 100, 17, 0.505);
     border-radius: 15px;
+}
+
+.button:hover{
+    background-color: chocolate;
+    border-color:  rgb(34, 31, 30);
+    color: white;
 }
 
 /* imagenes full width */
