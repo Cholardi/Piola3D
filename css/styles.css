@@ -200,7 +200,24 @@ footer{
 }
 
 .bi{
-    font-size: 1.5em;  
+    padding: 15px;
+
+    font-size: 1.5em;
+
+    transition-duration: .2s;
+    transition-timing-function: ease;
+}
+
+.bi-instagram:hover{
+    color: orange ;
+}
+
+.bi-facebook:hover{
+    color: rgb(0, 140, 255) ;
+}
+
+.bi-whatsapp:hover{
+    color: rgb(75, 228, 29) ;
 }
 
 .copyright, .social_link{
@@ -208,7 +225,7 @@ footer{
 }
 
 .social_link{
-    padding: 15px;
+    padding: 15px 0;
 }
 
 /* PAG: INDEX */
